@@ -27,6 +27,8 @@ Configured **route table** to allow **internet traffic** through the **Internet 
 
 Step 5 :
 
+Configured **security group** to allow **HTTP** and **SSH** access to EC2 instances.
+
 ![Project Screenshot](screenshots/step7-nat-gateway.png)
 
 
