@@ -66,6 +66,9 @@ Registered **EC2 instances** into **target group**.
 
 ![Project Screenshot](screenshots/step7-nat-gateway.png)
 
+Step 9 :
+
+Created **Network Load Balancer** to **distribute TCP traffic** across **servers**.
 
 
 
