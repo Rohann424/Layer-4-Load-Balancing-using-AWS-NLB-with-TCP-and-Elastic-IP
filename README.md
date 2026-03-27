@@ -72,6 +72,8 @@ Created **Network Load Balancer** to **distribute TCP traffic** across **servers
 
 Assigned **Elastic IP** to provide **static entry point** for the application.
 
+Connected **target group** to **load balancer**.
+
 
 
 
