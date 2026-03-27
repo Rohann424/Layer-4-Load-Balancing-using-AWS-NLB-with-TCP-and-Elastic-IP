@@ -132,7 +132,7 @@ Configured **unique responses** on **each server** to **validate load balancing*
 
 - Server 1 :
   
-![Project Screenshot](screenshots/step7-nat-gateway.png)
+![Project Screenshot](screenshots/step07-apache-server1.png)
 
 - Server 2 :
 
