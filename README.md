@@ -50,15 +50,15 @@ The objective of this project is to **design** and **implement** a **highly avai
   
 - **Gaming Servers**
   
--Requires fast TCP connections
+  -Requires fast TCP connections
 
--Handles large number of users
+  -Handles large number of users
   
 - **API Backends**
   
--Microservices communication
+  -Microservices communication
 
--High-performance traffic routing
+  -High-performance traffic routing
 
 **Architecture Diagram :**
 
