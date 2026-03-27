@@ -70,7 +70,7 @@ User → Elastic IP → Network Load Balancer → Target Group → EC2 Instances
 
 
 
-
+- **Pratical steps with explanation :**
 
 Step 1 : 
 
@@ -167,6 +167,10 @@ Observed that the **Network Load Balancer automatically** routed all incoming tr
 - Verified the traffic flow :
 
 ![Project Screenshot](screenshots/step7-nat-gateway.png)
+
+**Project Summary :**
+
+**This project demonstrates the implementation of a Layer 4 load balancing solution using AWS Network Load Balancer (NLB) to distribute TCP traffic across multiple EC2 instances deployed in a custom VPC (10.0.0.0/16) with subnets (10.0.1.0/24 and 10.0.2.0/24). Elastic IPs were assigned to the NLB to provide a static public entry point. The system was tested for load distribution using curl and validated for fault tolerance by simulating backend failure, where traffic was automatically redirected to the healthy instance, ensuring high availability and reliability.**
 
 
 
