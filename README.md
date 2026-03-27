@@ -4,6 +4,13 @@
 
 The objective of this project is to **design** and **implement** a **highly available** and **fault-tolerant** architecture using **AWS Network Load Balancer (NLB)** to distribute **TCP traffic** across **multiple EC2 instances** while ensuring a **static entry point using Elastic IP**.
 
+
+**PROJECT OVERVIEW :**
+
+- This project demonstrates how to build a **Layer 4 load balancing** solution using **AWS Network Load Balancer**.
+- The setup includes **deploying multiple EC2 instances** in **different availability zones**, configuring a **TCP-based target group**, and assigning **Elastic IPs** to achieve a **static public endpoint**.
+- The system is tested for **load distribution** and **fault tolerance** by simulating **backend server failure** and verifying **automatic traffic redirection** to **healthy instances**.
+
 **SERVICES USED :**
 
 - **Amazon VPC**	-                     Provides isolated network environment
@@ -17,11 +24,6 @@ The objective of this project is to **design** and **implement** a **highly avai
 - **Elastic IP**
 
 
-**PROJECT OVERVIEW :**
-
-- This project demonstrates how to build a **Layer 4 load balancing** solution using **AWS Network Load Balancer**.
-- The setup includes **deploying multiple EC2 instances** in **different availability zones**, configuring a **TCP-based target group**, and assigning **Elastic IPs** to achieve a **static public endpoint**.
-- The system is tested for **load distribution** and **fault tolerance** by simulating **backend server failure** and verifying **automatic traffic redirection** to **healthy instances**.
 
 **KEY FEATURES :**
 
