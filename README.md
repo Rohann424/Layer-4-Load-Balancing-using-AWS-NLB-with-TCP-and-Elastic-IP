@@ -31,6 +31,12 @@ Configured **security group** to allow **HTTP** and **SSH** access to EC2 instan
 
 ![Project Screenshot](screenshots/step7-nat-gateway.png)
 
+Step 6 :
+
+Launched **two EC2 instances** in **separate subnets** to act as **backend servers**.
+
+![Project Screenshot](screenshots/step7-nat-gateway.png)
+
 
 
 
