@@ -35,6 +35,12 @@ Step 6 :
 
 Launched **two EC2 instances** in **separate subnets** to act as **backend servers**.
 
+- Instance / Server 1 :
+  
+![Project Screenshot](screenshots/step7-nat-gateway.png)
+
+- Instance / Server 2 :
+
 ![Project Screenshot](screenshots/step7-nat-gateway.png)
 
 Step 7 :
