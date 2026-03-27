@@ -74,6 +74,14 @@ Assigned **Elastic IP** to provide **static entry point** for the application.
 
 Connected **target group** to **load balancer**.
 
+![Project Screenshot](screenshots/step7-nat-gateway.png)
+
+Step 10 :
+
+Verified **load balancing** by **accessing application** through **NLB DNS**.
+
+![Project Screenshot](screenshots/step7-nat-gateway.png)
+
 
 
 
