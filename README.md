@@ -54,20 +54,16 @@ The objective of this project is to **design** and **implement** a **highly avai
 
 User → Elastic IP → Network Load Balancer → Target Group → EC2 Instances
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+**Project Flow :**
+User
+ ↓
+Elastic IP (Static)
+ ↓
+Network Load Balancer (TCP)
+ ↓
+Target Group
+ ↓
+EC2 Server 1 / Server 2
 
 
 - **Pratical steps with explanation :**
