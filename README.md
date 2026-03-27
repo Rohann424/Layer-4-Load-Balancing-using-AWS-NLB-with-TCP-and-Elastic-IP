@@ -161,7 +161,7 @@ Step 10 :
 
 Verified **load balancing** by **accessing application** through **NLB DNS**.
 
-![Project Screenshot](screenshots/step7-nat-gateway.png)
+![Project Screenshot](screenshots/step10-test.png.png)
 
 Step 11 :
 
