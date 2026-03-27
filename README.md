@@ -1,5 +1,27 @@
 # Layer-4-Load-Balancing-using-AWS-NLB-with-TCP-and-Elastic-IP
 
+**PROJECT OBJECTIVE :**
+
+The objective of this project is to **design** and **implement** a **highly available** and **fault-tolerant** architecture using **AWS Network Load Balancer (NLB)** to distribute **TCP traffic** across **multiple EC2 instances** while ensuring a **static entry point using Elastic IP**.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Step 1 : 
 
 Created a **custom VPC** with **CIDR block 10.0.0.0/16** to **isolate** and **manage networking** for the **load balancing setup**.
