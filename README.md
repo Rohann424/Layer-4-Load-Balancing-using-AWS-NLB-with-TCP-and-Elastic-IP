@@ -155,7 +155,7 @@ Assigned **Elastic IP** to provide **static entry point** for the application.
 
 Connected **target group** to **load balancer**.
 
-![Project Screenshot](screenshots/step7-nat-gateway.png)
+![Project Screenshot](screenshots/step09-nlb.png)
 
 Step 10 :
 
