@@ -11,4 +11,11 @@ Step 2 :
 
 Created **two** **public subnets** across **different availability zones** to ensure **high availability** and **fault tolerance**.
 
+Public subnet 1 :
+
 ![Project Screenshot](screenshots/step7-nat-gateway.png)
+
+Public subnet 2 :
+
+![Project Screenshot](screenshots/step7-nat-gateway.png)
+
