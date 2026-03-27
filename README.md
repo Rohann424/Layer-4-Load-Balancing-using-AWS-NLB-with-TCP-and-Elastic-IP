@@ -19,3 +19,14 @@ Created and attached an **Internet Gateway** to **enable** **internet connectivi
 
 ![Project Screenshot](screenshots/step7-nat-gateway.png)
 
+Step 5 :
+
+Configured **route table** to allow **internet traffic** through the **Internet Gateway**.
+
+![Project Screenshot](screenshots/step7-nat-gateway.png)
+
+
+
+
+
+
