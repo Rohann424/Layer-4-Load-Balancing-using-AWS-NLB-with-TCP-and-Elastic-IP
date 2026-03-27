@@ -122,7 +122,7 @@ Launched **two EC2 instances** in **separate subnets** to act as **backend serve
 
 - Instance / Server 2 :
 
-![Project Screenshot](screenshots/step7-nat-gateway.png)
+![Project Screenshot](screenshots/step06-ec2-Server2-NLB.png)
 
 Step 7 :
 
