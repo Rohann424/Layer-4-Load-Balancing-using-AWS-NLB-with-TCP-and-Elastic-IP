@@ -104,7 +104,7 @@ Step 4 :
 
 Configured **route table** to allow **internet traffic** through the **Internet Gateway**.
 
-![Project Screenshot](screenshots/step7-nat-gateway.png)
+![Project Screenshot](screenshots/step04-route-table-NLB.png)
 
 Step 5 :
 
