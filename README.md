@@ -118,7 +118,7 @@ Launched **two EC2 instances** in **separate subnets** to act as **backend serve
 
 - Instance / Server 1 :
   
-![Project Screenshot](screenshots/step7-nat-gateway.png)
+![Project Screenshot](screenshots/step05-security-group.png)
 
 - Instance / Server 2 :
 
