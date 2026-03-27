@@ -37,20 +37,20 @@ The objective of this project is to **design** and **implement** a **highly avai
 **REAL-WORLD APPLICATIONS :**
 
 - **Banking Systems**
-- Require fixed IP for firewall whitelisting
-- Need zero downtime
+  -Require fixed IP for firewall whitelisting
+  -Need zero downtime
   
 - **Payment Gateways**
-- High traffic handling
-- Low latency communication
+-High traffic handling
+Low latency communication
   
 - **Gaming Servers**
-- Requires fast TCP connections
-- Handles large number of users
+-Requires fast TCP connections
+-Handles large number of users
   
 - **API Backends**
-- Microservices communication
-- High-performance traffic routing
+-Microservices communication
+-High-performance traffic routing
 
 **Architecture Diagram :**
 
@@ -62,19 +62,13 @@ User → Elastic IP → Network Load Balancer → Target Group → EC2 Instances
 
 **Project Flow :**
 
-User
- ↓
- 
-Elastic IP (Static)
- ↓
- 
-Network Load Balancer (TCP)
- ↓
- 
-Target Group
- ↓
- 
-EC2 Server 1 / Server 2
+1. Created VPC and subnets
+2. Launched EC2 instances
+3. Installed Apache
+4. Created Target Group
+5. Configured NLB with Elastic IP
+6. Tested load balancing
+7. Simulated failure
 
 
 - **Implementation Steps**
