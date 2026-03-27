@@ -62,7 +62,7 @@ The objective of this project is to **design** and **implement** a **highly avai
 
 **Architecture Diagram :**
 
-![Project Screenshot](screenshots/ARCHITECTURE- NLB.png)
+![Project Screenshot](ARCHITECTURE- NLB.png)
 
 **Architecture Flow :**
 
