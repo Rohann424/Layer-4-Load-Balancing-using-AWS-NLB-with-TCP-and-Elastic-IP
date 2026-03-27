@@ -82,6 +82,21 @@ Verified **load balancing** by **accessing application** through **NLB DNS**.
 
 ![Project Screenshot](screenshots/step7-nat-gateway.png)
 
+Step 11 :
+
+Simulated **backend failure** by **stopping** the **web server** **(Server2)** on one EC2 instance. 
+
+Observed that the **Network Load Balancer automatically** routed all incoming traffic to the **remaining healthy instance**, demonstrating **fault tolerance** and **high availability**.
+
+- Server 2 (Stopped) :
+
+![Project Screenshot](screenshots/step7-nat-gateway.png)
+
+- Verified the traffic flow :
+
+![Project Screenshot](screenshots/step7-nat-gateway.png)
+
+
 
 
 
