@@ -171,11 +171,11 @@ Observed that the **Network Load Balancer automatically** routed all incoming tr
 
 - Server 2 (Stopped) :
 
-![Project Screenshot](screenshots/step11-failover-test.png)
-
-- Verified the traffic flow :
-
 ![Project Screenshot](screenshots/step11-server2-stopped.png)
+
+- Verified the traffic flow :step11-server2-stopped.png
+
+![Project Screenshot](screenshots/step11-failover-test.png)
 
 **Project Summary :**
 
