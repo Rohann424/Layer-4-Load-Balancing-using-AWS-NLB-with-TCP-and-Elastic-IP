@@ -110,7 +110,7 @@ Step 5 :
 
 Configured **security group** to allow **HTTP** and **SSH** access to EC2 instances.
 
-![Project Screenshot](screenshots/step7-nat-gateway.png)
+![Project Screenshot](screenshots/step05-security-group.png)
 
 Step 6 :
 
