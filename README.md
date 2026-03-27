@@ -55,7 +55,13 @@ Configured **unique responses** on **each server** to **validate load balancing*
 
 - Server 2 :
 
-- ![Project Screenshot](screenshots/step7-nat-gateway.png)
+ ![Project Screenshot](screenshots/step7-nat-gateway.png)
+
+Step 8 :
+
+Created **TCP-based target group** to **route traffic to EC2 instances**.
+
+ ![Project Screenshot](screenshots/step7-nat-gateway.png)
 
 
 
