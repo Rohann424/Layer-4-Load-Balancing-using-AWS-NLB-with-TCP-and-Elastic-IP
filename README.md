@@ -38,6 +38,7 @@ The objective of this project is to **design** and **implement** a **highly avai
 
 - **Banking Systems**
   -Require fixed IP for firewall whitelisting
+  
   -Need zero downtime
   
 - **Payment Gateways**
