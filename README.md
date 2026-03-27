@@ -81,64 +81,64 @@ User → Elastic IP → Network Load Balancer → Target Group → EC2 Instances
 
 - **Implementation Steps**
 
-Step 1 : 
+**Step 1 :** 
 
 Created a **custom VPC** with **CIDR block 10.0.0.0/16** to **isolate** and **manage networking** for the **load balancing setup**.
 
 
 ![Project Screenshot](screenshots/step01-vpc-created.png)
 
-Step 2 :
+**Step 2 :**
 
 Created **two** **public subnets** across **different availability zones** to ensure **high availability** and **fault tolerance**.
 
 ![Project Screenshot](screenshots/step02-subnets-created.png)
 
-Step 3 :
+**Step 3 :**
 
 Created and attached an **Internet Gateway** to **enable** **internet connectivity** for resources inside the VPC.
 
 ![Project Screenshot](screenshots/step03-igw-NLB.png)
 
-Step 4 :
+**Step 4 :**
 
 Configured **route table** to allow **internet traffic** through the **Internet Gateway**.
 
 ![Project Screenshot](screenshots/step04-route-table-NLB.png)
 
-Step 5 :
+**Step 5 :**
 
 Configured **security group** to allow **HTTP** and **SSH** access to EC2 instances.
 
 ![Project Screenshot](screenshots/step05-security-group.png)
 
-Step 6 :
+**Step 6 :**
 
 Launched **two EC2 instances** in **separate subnets** to act as **backend servers**.
 
-- Instance / Server 1 :
+- **Instance / Server 1 :**
   
 ![Project Screenshot](screenshots/step06-ec2-server1-NLB.png)
 
-- Instance / Server 2 :
+- **Instance / Server 2 :**
 
 ![Project Screenshot](screenshots/step06-ec2-Server2-NLB.png)
 
-Step 7 :
+**Step 7 :**
 
 Installed **Apache web server** to handle **incoming TCP requests**.
 
 Configured **unique responses** on **each server** to **validate load balancing**.
 
-- Server 1 :
+- **Server 1 :**
   
 ![Project Screenshot](screenshots/step07-apache-server1.png)
 
-- Server 2 :
+- **Server 2 :**
 
  ![Project Screenshot](screenshots/step07-apache-server2.png)
 
-Step 8 :
+**Step 8 :**
 
 Created **TCP-based target group** to **route traffic to EC2 instances**.
 
@@ -147,7 +147,7 @@ Registered **EC2 instances** into **target group**.
 
 ![Project Screenshot](screenshots/step08-target-group.png)
 
-Step 9 :
+**Step 9 :**
 
 Created **Network Load Balancer** to **distribute TCP traffic** across **servers**.
 
@@ -157,23 +157,23 @@ Connected **target group** to **load balancer**.
 
 ![Project Screenshot](screenshots/step09-nlb.png)
 
-Step 10 :
+**Step 10 :**
 
 Verified **load balancing** by **accessing application** through **NLB DNS**.
 
 ![Project Screenshot](screenshots/step10-test.png.png)
 
-Step 11 :
+**Step 11 :**
 
 Simulated **backend failure** by **stopping** the **web server** **(Server2)** on one EC2 instance. 
 
 Observed that the **Network Load Balancer automatically** routed all incoming traffic to the **remaining healthy instance**, demonstrating **fault tolerance** and **high availability**.
 
-- Server 2 (Stopped) :
+- **Server 2 (Stopped) :**
 
 ![Project Screenshot](screenshots/step11-server2-stopped.png)
 
-- Verified the traffic flow :step11-server2-stopped.png
+- **Verified the traffic flow :**
 
 ![Project Screenshot](screenshots/step11-failover-test.png)
 
