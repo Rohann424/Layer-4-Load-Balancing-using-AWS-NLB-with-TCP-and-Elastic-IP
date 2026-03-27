@@ -61,7 +61,10 @@ Step 8 :
 
 Created **TCP-based target group** to **route traffic to EC2 instances**.
 
- ![Project Screenshot](screenshots/step7-nat-gateway.png)
+
+Registered **EC2 instances** into **target group**.
+
+![Project Screenshot](screenshots/step7-nat-gateway.png)
 
 
 
