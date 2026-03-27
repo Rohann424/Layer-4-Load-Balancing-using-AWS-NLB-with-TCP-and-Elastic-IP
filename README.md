@@ -44,9 +44,9 @@ The objective of this project is to **design** and **implement** a **highly avai
   
 - **Payment Gateways**
   
--High traffic handling
+  -High traffic handling
 
--Low latency communication
+  -Low latency communication
   
 - **Gaming Servers**
   
