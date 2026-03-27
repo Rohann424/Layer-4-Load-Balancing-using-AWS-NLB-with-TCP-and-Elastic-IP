@@ -92,7 +92,7 @@ Step 2 :
 
 Created **two** **public subnets** across **different availability zones** to ensure **high availability** and **fault tolerance**.
 
-![Project Screenshot](screenshots/step7-nat-gateway.png)
+![Project Screenshot](screenshots/step02-subnets-created.png)
 
 Step 3 :
 
