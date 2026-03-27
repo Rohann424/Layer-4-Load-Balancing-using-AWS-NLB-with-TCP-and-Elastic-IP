@@ -16,7 +16,7 @@ The objective of this project is to **design** and **implement** a **highly avai
 - **Network Load Balancer (NLB)**	-     Distributes TCP traffic
 - **Elastic IP**
 
-- 
+
 **PROJECT OVERVIEW :**
 
 - This project demonstrates how to build a **Layer 4 load balancing** solution using **AWS Network Load Balancer**.
@@ -49,6 +49,8 @@ The objective of this project is to **design** and **implement** a **highly avai
 **API Backends**
 - Microservices communication
 - High-performance traffic routing
+
+**Architecture Flow :**
 
 User → Elastic IP → Network Load Balancer → Target Group → EC2 Instances
 
