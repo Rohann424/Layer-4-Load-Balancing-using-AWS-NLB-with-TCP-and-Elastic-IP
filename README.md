@@ -72,7 +72,7 @@ Target Group
 EC2 Server 1 / Server 2
 
 
-- **Pratical steps with explanation :**
+- **Implementation Steps**
 
 Step 1 : 
 
