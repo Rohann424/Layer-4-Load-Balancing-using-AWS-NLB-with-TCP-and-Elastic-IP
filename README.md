@@ -47,6 +47,8 @@ Step 7 :
 
 Installed **Apache web server** to handle **incoming TCP requests**.
 
+Configured **unique responses** on **each server** to **validate load balancing**.
+
 - Server 1 :
   
 ![Project Screenshot](screenshots/step7-nat-gateway.png)
