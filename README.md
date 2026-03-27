@@ -37,6 +37,18 @@ Launched **two EC2 instances** in **separate subnets** to act as **backend serve
 
 ![Project Screenshot](screenshots/step7-nat-gateway.png)
 
+Step 7 :
+
+Installed **Apache web server** to handle **incoming TCP requests**.
+
+- Server 1 :
+  
+![Project Screenshot](screenshots/step7-nat-gateway.png)
+
+- Server 2 :
+
+- ![Project Screenshot](screenshots/step7-nat-gateway.png)
+
 
 
 
