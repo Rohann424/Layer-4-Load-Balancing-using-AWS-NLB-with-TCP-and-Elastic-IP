@@ -171,7 +171,7 @@ Observed that the **Network Load Balancer automatically** routed all incoming tr
 
 - Server 2 (Stopped) :
 
-![Project Screenshot](screenshots/step7-nat-gateway.png)
+![Project Screenshot](screenshots/step11-failover-test.png)
 
 - Verified the traffic flow :
 
