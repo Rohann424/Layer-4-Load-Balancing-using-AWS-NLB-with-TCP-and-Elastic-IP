@@ -16,6 +16,14 @@ The objective of this project is to **design** and **implement** a **highly avai
 - **Network Load Balancer (NLB)**	-     Distributes TCP traffic
 - **Elastic IP**
 
+- 
+**PROJECT OVERVIEW :**
+
+This project demonstrates how to build a **Layer 4 load balancing** solution using **AWS Network Load Balancer**.
+The setup includes **deploying multiple EC2 instances** in **different availability zones**, configuring a **TCP-based target group**, and assigning**** **Elastic IPs** to achieve a **static public endpoint**.
+The system is tested for **load distribution** and **fault tolerance** by simulating **backend server failure** and verifying **automatic traffic redirection** to **healthy instances**.
+
+
 
 
 
@@ -129,14 +137,6 @@ Observed that the **Network Load Balancer automatically** routed all incoming tr
 - Verified the traffic flow :
 
 ![Project Screenshot](screenshots/step7-nat-gateway.png)
-
-**PROJECT OVERVIEW :**
-
-**This project demonstrates how to build a Layer 4 load balancing solution using AWS Network Load Balancer.** 
-
-**The setup includes deploying multiple EC2 instances in different availability zones, configuring a TCP-based target group, and assigning Elastic IPs to achieve a static public endpoint.** 
-
-**The system is tested for load distribution and fault tolerance by simulating backend server failure and verifying automatic traffic redirection to healthy instances.**
 
 
 
