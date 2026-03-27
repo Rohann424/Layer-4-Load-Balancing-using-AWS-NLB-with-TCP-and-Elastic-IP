@@ -145,7 +145,7 @@ Created **TCP-based target group** to **route traffic to EC2 instances**.
 
 Registered **EC2 instances** into **target group**.
 
-![Project Screenshot](screenshots/step7-nat-gateway.png)
+![Project Screenshot](screenshots/step08-target-group.png)
 
 Step 9 :
 
