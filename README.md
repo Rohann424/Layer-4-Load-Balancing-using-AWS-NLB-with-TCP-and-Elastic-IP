@@ -98,7 +98,7 @@ Step 3 :
 
 Created and attached an **Internet Gateway** to **enable** **internet connectivity** for resources inside the VPC.
 
-![Project Screenshot](screenshots/step7-nat-gateway.png)
+![Project Screenshot](screenshots/step03-igw-NLB.png)
 
 Step 4 :
 
