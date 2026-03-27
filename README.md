@@ -62,7 +62,7 @@ The objective of this project is to **design** and **implement** a **highly avai
 
 **Architecture Diagram :**
 
-![Project Screenshot](screenshots/step7-nat-gateway.png)
+![Project Screenshot](screenshots/ARCHITECTURE- NLB.png)
 
 **Architecture Flow :**
 
