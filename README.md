@@ -19,9 +19,18 @@ The objective of this project is to **design** and **implement** a **highly avai
 - 
 **PROJECT OVERVIEW :**
 
-This project demonstrates how to build a **Layer 4 load balancing** solution using **AWS Network Load Balancer**.
-The setup includes **deploying multiple EC2 instances** in **different availability zones**, configuring a **TCP-based target group**, and assigning**** **Elastic IPs** to achieve a **static public endpoint**.
-The system is tested for **load distribution** and **fault tolerance** by simulating **backend server failure** and verifying **automatic traffic redirection** to **healthy instances**.
+- This project demonstrates how to build a **Layer 4 load balancing** solution using **AWS Network Load Balancer**.
+- The setup includes **deploying multiple EC2 instances** in **different availability zones**, configuring a **TCP-based target group**, and assigning**** **Elastic IPs** to achieve a **static public endpoint**.
+- The system is tested for **load distribution** and **fault tolerance** by simulating **backend server failure** and verifying **automatic traffic redirection** to **healthy instances**.
+
+**KEY FEATURES :**
+
+- Layer 4 (TCP) Load Balancing
+- Static IP using Elastic IP
+- High Availability (Multi-AZ setup)
+- Fault Tolerance (Automatic failover)
+- Health Check Monitoring (TCP-based)
+- Real-time Traffic Distribution
 
 
 
