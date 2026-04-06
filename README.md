@@ -15,7 +15,7 @@ The objective of this project is to **design** and **implement** a **highly avai
 
 - **Amazon VPC**	-                     Provides isolated network environment
 - **Subnets**	-                         Distributes resources across AZs
-- **Internet Gateway**	-               Enables internet access
+- **Route Tables**	-                   Controls traffic flow
 - **Route Tables**	-                   Controls traffic flow
 - **EC2 (Ubuntu)**	-                   Backend application servers
 - **Security Groups**	-                 Controls inbound/outbound traffic
