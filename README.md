@@ -13,7 +13,6 @@ The objective of this project is to **design** and **implement** a **highly avai
 
 **SERVICES USED :**
 
-- **Amazon VPC**	-                     Provides isolated network environment
 - **Subnets**	-                         Distributes resources across AZs
 - **Route Tables**	-                   Controls traffic flow
 - **Route Tables**	-                   Controls traffic flow
